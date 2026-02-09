@@ -1,0 +1,17 @@
+Package: participationSearch
+Title: NSSE Participating Institutions Search
+Version: 0.0.0.9000
+Authors@R: 
+    person("Brendan", "Dugan", , "ardentArmadillo24@proton.me", role = c("aut", "cre"))
+Description: Track participation among higher education institutions in the US and Canada in NSSE, FSSE, and BCSSE. Filter by name, Topical Module use, consortium participation, and select IPEDS institutional characteristics.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
