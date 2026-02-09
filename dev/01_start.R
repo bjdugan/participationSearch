@@ -66,11 +66,13 @@ usethis::use_git()
 ## Sets the remote associated with 'name' to 'url'
 usethis::use_git_remote(
   name = "origin",
-  url = "https://github.com/bjdugan/participationSearch",
+  url = "https://github.com/bjdugan/participationSearch.git",
   overwrite = TRUE
 )
+# adding github; might request setting PAT prior
+usethis::use_github(private = FALSE)
 
-# You're now set! ----
+1# You're now set! ----
 
 # go to dev/02_dev.R
 rstudioapi::navigateToFile("dev/02_dev.R")
