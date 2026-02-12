@@ -72,7 +72,7 @@ usethis::use_git_remote(
 # adding github; might request setting PAT prior
 usethis::use_github(private = FALSE)
 
-1# You're now set! ----
+# You're now set! ----
 
 # go to dev/02_dev.R
 rstudioapi::navigateToFile("dev/02_dev.R")
